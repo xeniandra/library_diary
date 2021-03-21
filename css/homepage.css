@@ -1,0 +1,104 @@
+*
+{  
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+html
+{
+    background: #d0bb93;
+}
+body 
+{   
+    margin: 0 auto;
+    font-family: "Comfortaa", sans-serif;
+    padding: 1%;
+    text-shadow: 1px 1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, -1px -1px 0 #000000, 1px 0px 0 #000000, 0px 1px 0#000000, -1px 0px 0 #000000, 0px -1px 0 #000000;
+    letter-spacing: 1.2px;
+}
+main 
+{   
+    min-width: 220px;
+    width: 580px;
+    height: 580px;
+    margin: 0 auto;
+    
+}
+
+#container
+{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 5% 1% 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../img/polki.jpg);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1px;
+    
+}
+div.mybooks, div.wishbooks     
+{   
+    height: 200px;
+    width: 580px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+img:not(.addbookimg)
+{   
+    width: 70px;
+    height: 100px;
+    transition: all .5s ease;
+}
+a:not(.addbookimga)
+{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: block;
+    transition: all .5s ease;
+}
+
+   
+a:not(.addbookimga):hover
+{
+    transform: scale(1.01);
+}
+
+div.imgbook
+{
+    min-height: 15%;
+    max-height: 30%;
+    width: 100%;
+}
+#addbookimg 
+{
+
+    margin: 0 30%;
+    height: 90%;
+    width: 38%;
+    
+}
+
+#backbtn
+{
+
+    transition: all .5s ease;
+    max-height: 10%;
+    font-size: 32px;
+    padding: 0.5%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+#backbtn:hover
+{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
